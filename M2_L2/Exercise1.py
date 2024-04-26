@@ -11,3 +11,4 @@ elif traffic_light == "green":
     print("Go!")
 else:
     print("Detour!")
+    
