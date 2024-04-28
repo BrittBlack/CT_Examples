@@ -3,7 +3,7 @@
 #
 #
 #
-minutes_exercised_daily = 45
+minutes_exercised_daily = float(input("How may minutes do you exercise daily?"))
 
 
 if 0 <= minutes_exercised_daily <= 10 :

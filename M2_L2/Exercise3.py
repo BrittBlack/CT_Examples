@@ -2,9 +2,9 @@
 #
 #
 #
-current_temperature = 24
+current_temperature = float(input("Enter today's temperature in Fahrenheit: "))
 
-if  0 >= current_temperature <= 24:
+if  0 <= current_temperature <= 24:
     print("Put on your apple bottom jeans, boots with the fur, and maybe stay inside")
 elif 25 <= current_temperature <= 49:
     print("You can get away with shorts, a sweater, and a parka.")
