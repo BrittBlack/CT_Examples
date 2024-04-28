@@ -4,18 +4,16 @@
 #
 #
 
-num_days_books_overdue = 100
+days_overdue = int(input("How many days is the book overdue? "))
 
-var1 = 1*
-var2 = 2*
-var3 = 5*()
+fine = 0
 
-
-if 1 <= num_days_books_overdue <= 5
-    print("You owe $1.")
-elif 6 <= num_days_books_overdue <= 10
-    print("You owe $1.")
-elif 10 > num_days_books_overdue
-    print("You owe $1.")
+if  days_overdue <= 5 :
+    fine = days_overdue * 1
+elif days_overdue <= 10:
+    fine = days_overdue * 2
 else:
-    print("Your account is current.")
+    fine = days_overdue * 5
+    
+
+print(f"Your fine is ${fine}.")
